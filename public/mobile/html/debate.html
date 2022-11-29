@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+	<title>동아 사이언스 디톡스</title>
+	<link rel="stylesheet" as="style"crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+	<link rel="stylesheet" href="/assets/css/ui_layout.css">
+	<link rel="stylesheet" href="/assets/css/ui_m_common.css">
+	<script type="text/javascript" src="/assets/js/libs/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/swiper.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/EasePack.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/useragent.js"></script>
+	<script type="text/javascript" src="/assets/js/ui_common.js"></script>
+</head>
+<body>
+	<div class="skip-menu">
+		<a href="#container">본문바로가기</a>
+	</div>
+	<!-- // WRAPPER -->
+	<div class="wrapper main">
+		<!-- HEADING -->
+		<header class="header">
+			<div class="header-inner">
+				<h1 class="h1">
+					<a href="" class="btn-logo" title="동아 사이언스 디톡스 홈으로 이동"></a>
+				</h1>
+			</div>
+		</header>
+		<!-- HEADING -->
+
+		<!-- MAIN -->
+		<div class="container" role="main" id="container">
+			<div class="contents">
+				<div class="body-group">
+					<div class="body-heading">
+						<div class="header-group">
+							<h3 class="other">V토론<span>카테고리를 선택해보세요!</span></h3>
+						</div>
+						<div class="swiper debate-swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_life.png" alt="생활 과학">
+										</div>
+										<span class="title">생활 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_live.png" alt="생명 과학">
+										</div>
+										<span class="title">생명 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_space.png" alt="우주 과학">
+										</div>
+										<span class="title">우주 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_social.png" alt="사회 과학">
+										</div>
+										<span class="title">사회 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_life.png" alt="생활 과학">
+										</div>
+										<span class="title">생활 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_live.png" alt="생명 과학">
+										</div>
+										<span class="title">생명 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_space.png" alt="우주 과학">
+										</div>
+										<span class="title">우주 과학</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-sw-category">
+										<div class="img-group">
+											<img src="/assets/images/ico_social.png" alt="사회 과학">
+										</div>
+										<span class="title">사회 과학</span>
+									</button>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<script>
+							$(document).ready(function(){
+								var swiper = new Swiper(".debate-swiper", {
+									slidesPerView: 4,
+									spaceBetween: 10,
+									slidesPerGroup: 4,
+									// loop: true,
+									// loopFillGroupWithBlank: true,
+									pagination: {
+										el: ".swiper-pagination",
+										clickable: true,
+									},
+								});
+							});
+						</script>
+					</div>
+					
+					<div class="body-con">
+						<div class="header-group pdt17">
+							<h4 class="h4">토론 카테고리 제목 영역</h4>
+						</div>
+
+						<!-- 토론 목록 -->
+						<ul class="debate-lists">
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="end">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-secondary"><span>토론 다시보기</span></a>
+								</div>
+							</li>
+						</ul>
+						<!-- // 토론 목록 -->
+
+						<div class="header-group pdt17">
+							<h4 class="h4">토론 카테고리 제목 영역</h4>
+						</div>
+						
+						<ul class="debate-lists">
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="ing">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-primary"><span>토론 참여 하기</span></a>
+								</div>
+							</li>
+							<li class="end">
+								<div class="debate-group">
+									<div class="debate-heading">
+										<img src="/assets/images/thumbs/thumb_debate_list0.png" alt="">
+										<div class="debate-flag">토론진행중</div>
+										<div class="debate-person">8</div>
+									</div>
+									<div class="debate-body">
+										<p class="dbbody-middle">
+											안락사 제도에 대해 어떻게 생각하시나요?
+										</p>
+									</div>
+								</div>
+								<div class="debate-footer flex-center">
+									<a href="javascript:;" class="btn-secondary"><span>토론 다시보기</span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="make-debate-group">
+						<button type="button" class="btn-make-debate" onclick="Science.popup.open(this,'#popupDebate')"><span>토론방<br>만들기</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<nav class="nav">
+				<ul class="nav-ul">
+					<li>
+						<button type="button" class="btn-menu ico-search"><span>검색</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-debate"><span>V토론</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-main on" title="메인"></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-chat"><span>Q챗</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-my"><span>MY</span></button>
+					</li>
+				</ul>
+			</nav>
+			<script>
+				$(document).ready(function () {
+						Science.setGnb(1);
+					});
+			</script>
+		</footer>
+		<!-- // FOOTER -->
+	</div>
+	<!-- // WRAPPER -->
+
+	<!-- POPUP: 토론방 만들기 -->
+	<div class="popup-group" id="popupDebate" role="dialog" aria-labelledby="title-dialog">
+		<div class="dim"></div>
+		<div class="popup-content" tabindex="-1">
+			<div class="popup-cover">
+				<div class="popup-heading">
+					<h3 class="popup-title" >토론방을 만들어 보세요</h3>
+				</div>
+				<div class="popup-body">
+					<div class="popup-inner">
+						<div class="ui-dl">
+							<div class="ui-dt">
+								<label for="dbt1">인원수</label>
+							</div>
+							<div class="ui-dd">
+								<select name="" id="dbt1" class="ui-sct col-6">
+									<option value="">선택</option>
+									<option value="">1</option>
+									<option value="">2</option>
+									<option value="">3</option>
+									<option value="">4</option>
+								</select>
+							</div>
+							<div class="ui-dt mgt16">
+								<label for="dbt2">카테고리</label>
+							</div>
+							<div class="ui-dd mgt16">
+								<select name="" id="dbt2" class="ui-sct col-10">
+									<option value="">카테고리를 선택하세요</option>
+									<option value="">1</option>
+									<option value="">2</option>
+									<option value="">3</option>
+									<option value="">4</option>
+								</select>
+							</div>
+							<div class="ui-dt mgt16">
+								<label for="dbt3">방제목</label>
+							</div>
+							<div class="ui-dd mgt16">
+								<input type="text" id="dbt3" class="ui-input col-10" placeholder="제목을 입력해 주세요.">
+							</div>
+							<div class="ui-dt mgt16">
+								<label for="dbt4">이미지 설정</label>
+							</div>
+							<div class="ui-dd flex align-item-end mgt16">
+								<div class="file-group">
+									<!-- label에 이미지 넣기 -->
+									<label for="dbt5" class="upload-photo"></label>
+									<input type="file" id="dbt5">
+								</div>
+								<!-- 아래 버튼 .none 클래스 삭제시 나타남 -->
+								<button type="button" class="btn btn-line small mgl10 none"><span>삭제</span></button>
+							</div>
+						</div>
+
+						<div class="btn-group flex-center">
+							<button type="button" class="btn-debate"><span>토론방 만들기</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-close"><span class="blind">팝업닫기</span></button>
+		</div>
+	</div>
+	<!-- // POPUP: 토론방 만들기 -->
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* FONT */
+@font-face {
+	font-family: "Pretendard";
+	src: local(※);
+	src: url('/public/mobile/fonts/Pretendard-ExtraLight.woff') format("woff");
+	src: url('/public/mobile/fonts/Pretendard-ExtraLight.woff2') format("woff2");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face{
+	font-family:"Pretendard";
+	src:local(※);
+	src:url('/public/mobile/fonts/Pretendard-Light.woff') format("woff");
+	src:url('/public/mobile/fonts/Pretendard-Light.woff2') format("woff2");
+	font-weight:300;
+	font-style:normal;
+}
+@font-face{
+	font-family:"Pretendard";
+	src:local(※);
+	src:url('/public/mobile/fonts/Pretendard-Regular.woff') format("woff");
+	src:url('/public/mobile/fonts/Pretendard-Regular.woff2') format("woff2");
+	font-weight:400;
+	font-style:normal;
+}
+@font-face {
+	font-family: "Pretendard";
+	src: local(※);
+	src: url('/public/mobile/fonts/Pretendard-Medium.woff') format("woff");
+	src: url('/public/mobile/fonts/Pretendard-Medium.woff2') format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Pretendard";
+	src: local(※);
+	src: url('/public/mobile/fonts/Pretendard-SemiBold.woff') format("woff");
+	src: url('/public/mobile/fonts/Pretendard-SemiBold.woff2') format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Pretendard";
+	src: local(※);
+	src: url('/public/mobile/fonts/Pretendard-Bold.woff') format("woff");
+	src: url('/public/mobile/fonts/Pretendard-Bold.woff2') format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+*, *:before, *:after{margin:0;padding:0;border:0;font-family:"Pretendard","Open Sans","Dotum","Dotumche","돋움","돋움체","Arial"; box-sizing:border-box;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;-o-box-sizing:inherit;letter-spacing:-1px;}
+html:not(.section-detail){min-height:100%;height:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;font-size:10px;}
+body{height:100%;background-color:#040d22;line-height:1.4;}
+address,article,aside,canvas,details,figure,figcaption,footer,header,menu,nav,section,p{display:block;margin:0;padding:0;}
+a,abbr,audio,b,br,button,canvas,em,embed,i,iframe,img,input,label,map,mark,object,select,span,strong,sub,sup,textarea,video{display:inline-block;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;}
+img{vertical-align:middle;}
+ol, ul, li, dl, dt, dd{list-style:none;}
+.section-detail ol,.section-detail  ul,.section-detail  li,.section-detail  dl,.section-detail  dt,.section-detail  dd{margin-left:5px;}
+table{width:100%;border-spacing:0px;border-collapse:collapse;}
+th, td{word-break:break-all;font-weight:normal;}
+fieldset, iframe{width:100%;}
+em, address{font-style:normal;}
+button, select, input, label{vertical-align:middle;}
+label{cursor:pointer;}
+hr{border: 0;height: 1px;background: #ccc;}
+a{text-decoration:none; color: #333;}
+button{position:relative;border:none;background-color:transparent;cursor:pointer;}
+button span{position:relative;}
+legend{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);clip:rect(1px 1px 1px 1px);word-break:initial;word-wrap:initial;}
+caption{visibility:hidden;height:0;line-height:0;font-size:0;}
+strong{font-weight:700;}
+

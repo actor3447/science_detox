@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+	<title>동아 사이언스 디톡스</title>
+	<link rel="stylesheet" as="style"crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+	<link rel="stylesheet" href="/assets/css/ui_layout.css">
+	<link rel="stylesheet" href="/assets/css/ui_m_common.css">
+	<script type="text/javascript" src="/assets/js/libs/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/swiper.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/EasePack.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/useragent.js"></script>
+	<script type="text/javascript" src="/assets/js/ui_common.js"></script>
+</head>
+<body>
+	<div class="skip-menu">
+		<a href="#container">본문바로가기</a>
+	</div>
+	<!-- // WRAPPER -->
+	<div class="wrapper main">
+		<!-- HEADING -->
+		<header class="header">
+			<div class="header-inner">
+				<h1 class="h1">
+					<a href="" class="btn-logo" title="동아 사이언스 디톡스 홈으로 이동"></a>
+				</h1>
+			</div>
+		</header>
+		<!-- HEADING -->
+
+		<!-- MAIN -->
+		<div class="container chat-body-group" role="main" id="container">
+			<div class="contents">
+				<div class="body-group">
+					<div class="body-heading">
+						<div class="header-group">
+							<h3 class="other">Q챗<span>멘토에게 1 : 1 로 질문해보세요!</span></h3>
+						</div>
+						<div class="swiper debate-swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento" onclick="Science.popup.open(this,'#popupMento');">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento0.png" alt="홍길동 멘토">
+										</div>
+										<span class="title">홍길동 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento1.png" alt="김가나 멘토">
+										</div>
+										<span class="title">김가나 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento2.png" alt="아무개 멘토">
+										</div>
+										<span class="title">아무개 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento3.png" alt="손오공 멘토">
+										</div>
+										<span class="title">손오공 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento0.png" alt="홍길동 멘토">
+										</div>
+										<span class="title">홍길동 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento1.png" alt="김가나 멘토">
+										</div>
+										<span class="title">김가나 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento2.png" alt="아무개 멘토">
+										</div>
+										<span class="title">아무개 멘토</span>
+									</button>
+								</div>
+								<div class="swiper-slide">
+									<button type="button" class="btn-mento">
+										<div class="img-group">
+											<img src="/assets/images/thumb_mento3.png" alt="손오공 멘토">
+										</div>
+										<span class="title">손오공 멘토</span>
+									</button>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<script>
+							$(document).ready(function(){
+								var swiper = new Swiper(".debate-swiper", {
+									slidesPerView: 4,
+									spaceBetween: 10,
+									slidesPerGroup: 4,
+									// loop: true,
+									// loopFillGroupWithBlank: true,
+									pagination: {
+										el: ".swiper-pagination",
+										clickable: true,
+									},
+								});
+							});
+						</script>
+					</div>
+					
+					<div class="body-con chat-con">
+						<div class="chatque-group">
+							<div class="ui-que-dl ui-scroll">
+								<div class="ui-que-dt">
+									<div class="que-heading">
+										<img src="/assets/images/ico_qbot.png" alt="Q.bot">
+									</div>
+									<div class="que-body">
+										무엇이 궁금하세요?
+									</div>
+								</div>
+								<div class="ui-que-dd">
+									<div class="que-body">
+										공룡이 살던 시대가 궁금해요.
+									</div>
+								</div>
+								<div class="ui-que-dt">
+									<div class="que-heading">
+										<img src="/assets/images/ico_qbot.png" alt="Q.bot">
+									</div>
+									<div class="que-body">
+										공룡은 2억 2천만 년 전인<br>
+										트라이아스기부터 살았습니다.
+									</div>
+								</div>
+								<div class="ui-que-dd">
+									<div class="que-body">
+										공룡에 대해 더 알려주세요.
+									</div>
+								</div>
+							</div>
+						
+							<div class="ipt-group que-ipt-group">
+								<input type="text" class="ui-que-ipt" placeholder="질문을 입력하세요.">
+								<button type="button" class="btn-send" title="질문보내기"></button>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- // MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<nav class="nav">
+				<ul class="nav-ul">
+					<li>
+						<button type="button" class="btn-menu ico-search"><span>검색</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-debate"><span>V토론</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-main on" title="메인"></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-chat"><span>Q챗</span></button>
+					</li>
+					<li>
+						<button type="button" class="btn-menu ico-my"><span>MY</span></button>
+					</li>
+				</ul>
+			</nav>
+			<script>
+				$(document).ready(function () {
+						Science.setGnb(1);
+					});
+			</script>
+		</footer>
+		<!-- // FOOTER -->
+	</div>
+	<!-- // WRAPPER -->
+	<!-- POPUP : 멘토를 소개 -->
+	<div class="popup-group" id="popupMento" role="dialog" aria-labelledby="title-dialog">
+		<div class="dim"></div>
+		<div class="popup-content" tabindex="-1">
+			<div class="popup-cover">
+				<div class="popup-heading">
+					<h3 class="popup-title" >멘토를 소개합니다.</h3>
+				</div>
+				<div class="popup-body">
+					<div class="popup-inner">
+						<div class="mento-info-group">
+							<div class="mento-info-heading">
+								<img src="/assets/images/thumb_mento_pop.png" alt="가나다 멘토">
+							</div>
+							<div class="mento-info-body">
+								<h4 class="title">가나다멘토</h4>
+								<p class="sub-title">과학대 과학과 사회 과학 관련</p>
+							</div>
+						</div>
+						<div class="mento-detail ui-scroll">
+							멘토 정보~
+						</div>
+						<div class="btn-group flex-center">
+							<button type="button" class="btn-debate" onclick="Science.popup.open(this,'#popupQue');"><span>1:1질문하기</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-close"><span class="blind">팝업닫기</span></button>
+		</div>
+	</div>
+	<!-- // POPUP : 멘토를 소개 -->
+	<!-- POPUP : 멘토 1:1 질문하기 -->
+	<div class="popup-group" id="popupQue" role="dialog" aria-labelledby="title-dialog">
+		<div class="dim"></div>
+		<div class="popup-content" tabindex="-1">
+			<div class="popup-cover">
+				<div class="popup-heading">
+					<h3 class="popup-title" >멘토 1:1 질문하기</h3>
+				</div>
+				<div class="popup-body">
+					<div class="popup-inner que-popup-group">
+						<select name="" id="" class="ui-sct col-7">
+							<option value="">카테고리를 선택하세요</option>
+							<option value="">카테고리1</option>
+							<option value="">카테고리2</option>
+							<option value="">카테고리3</option>
+						</select>
+						<input type="text" class="ui-input medium" placeholder="제목을 입력하세요">
+						<textarea name="" id="" cols="30" rows="6" class="ui-txa medium" placeholder="내용을 입력하세요."></textarea>
+						<div class="btn-group flex-center">
+							<button type="button" class="btn-debate"><span>보내기</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-close"><span class="blind">팝업닫기</span></button>
+		</div>
+	</div>
+	<!-- // POPUP : 멘토 1:1 질문하기 -->
+</body>
+
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+	<title>동아 사이언스 디톡스</title>
+	<link rel="stylesheet" as="style"crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+	<link rel="stylesheet" href="/assets/css/ui_layout.css">
+	<link rel="stylesheet" href="/assets/css/ui_pc_common.css">
+	<!-- <link rel="stylesheet" href="/assets/css/ui_pc_common.css"> -->
+	<script type="text/javascript" src="/assets/js/libs/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/swiper.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/EasePack.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/useragent.js"></script>
+	<script type="text/javascript" src="/assets/js/ui_common.js"></script>
+	<!-- 개발시 아래 삭제 -->
+	<script type="text/javascript" src="/assets/js/header_footer_guide.js"></script>
+	<script>
+		$(document).ready(function(){
+			// 0:사이언스디톡S, 1:토론, 2:채팅
+			Science.setGnb(2);
+		});
+	</script>
+</head>
+<body>
+	<div class="skip-group">
+		<a href="#container" class="btn-skip">본문바로가기</a>
+	</div>
+	<!-- // WRAPPER -->
+	<div class="wrapper chat">
+		<!-- HEADING -->
+		<header class="header" id="header">
+			<div class="header-inner">
+				<h1>
+					<a href="" class="btn-logo" title="동아 사이언스 디톡스 홈으로 이동"></a>
+				</h1>
+				<nav class="nav-group">
+					<ul class="nav-ul">
+						<li>
+							<a href="" class="btn-menu"></a>
+						</li>
+						<li>
+							<a href="" class="btn-menu ico-debate"></a>
+						</li>
+						<li>
+							<a href="" class="btn-menu ico-chat"></a>
+						</li>
+					</ul>
+				</nav>
+				<div class="util-group">
+					<a href="" class="btn-user">
+						<span class="user-name">김아무개</span>
+						<spin class="ico-user"></spin>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!-- HEADING -->
+
+		<!-- MAIN -->
+		<div class="container" role="main" id="container">
+			<div class="contents">
+				<div class="con-group">
+					<div class="con-heading">
+						<h2 class="h2 loc-center">
+							<img src="/assets/images/bg_chat.png" alt="Q챗 궁금한 것은 Q챗에 질문하세요/">
+						</h2>
+					</div>
+					<div class="con-body loc-center pdl0-pdr0 pdt0 mgt41 bg-white">
+						<div class="chat-group">
+							<div class="chat-side">
+								<div class="header-group">
+									<h5 class="h5-small darkgray">멘토 질문 하기</h5>
+									<span>멘토에게 1:1로 질문해 보아요</span>
+								</div>
+								<!-- 멘토 리스트 -->
+								<ul class="mento-lists">
+									<li>
+										<div class="mento-group">
+											<button type="button" class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+												<div class="mento-heading">
+													<img src="/assets/images/thumb_mento0.png" alt="홍 길동 멘토 사진">	
+												</div>
+												<div class="mento-body">
+													<div class="mento-body-title">홍 길동 멘토</div>
+													<ul class="mento-detail-lists">
+														<li>과학대 과학과</li>
+														<li>사회 과학 관련</li>
+													</ul>
+												</div>
+											</button>
+											<div class="mento-footer">
+												<button type="button" title="팝업열기" class="btn-question" onclick="Science.popup.open(this,'#popupQuestion');">
+													<span>1:1 질문하기</span>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="mento-group">
+											<button type="button" class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+												<div class="mento-heading">
+													<img src="/assets/images/thumb_mento1.png" alt="이 성계 멘토 사진">
+												</div>
+												<div class="mento-body">
+													<div class="mento-body-title">이 성계 멘토</div>
+													<ul class="mento-detail-lists">
+														<li>과학대 과학과</li>
+														<li>사회 과학 관련</li>
+													</ul>
+												</div>
+											</button>
+											<div class="mento-footer">
+												<button type="button" title="팝업열기" class="btn-question"
+													onclick="Science.popup.open(this,'#popupQuestion');">
+													<span>1:1 질문하기</span>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="mento-group">
+											<button type="button" class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+												<div class="mento-heading">
+													<img src="/assets/images/thumb_mento2.png" alt="이 방원 멘토 사진">
+												</div>
+												<div class="mento-body">
+													<div class="mento-body-title">이 방원 멘토</div>
+													<ul class="mento-detail-lists">
+														<li>과학대 과학과</li>
+														<li>사회 과학 관련</li>
+													</ul>
+												</div>
+											</button>
+											<div class="mento-footer">
+												<button type="button" title="팝업열기" class="btn-question"
+													onclick="Science.popup.open(this,'#popupQuestion');">
+													<span>1:1 질문하기</span>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="mento-group">
+											<button type="button" class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+												<div class="mento-heading">
+													<img src="/assets/images/thumb_mento3.png" alt="이 순신 멘토 사진">
+												</div>
+												<div class="mento-body">
+													<div class="mento-body-title">이 순신 멘토</div>
+													<ul class="mento-detail-lists">
+														<li>과학대 과학과</li>
+														<li>사회 과학 관련</li>
+													</ul>
+												</div>
+											</button>
+											<div class="mento-footer">
+												<button type="button" title="팝업열기" class="btn-question"
+													onclick="Science.popup.open(this,'#popupQuestion');">
+													<span>1:1 질문하기</span>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="mento-group">
+											<button type="button" class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+												<div class="mento-heading">
+													<img src="/assets/images/thumb_mento4.png" alt="홍 길동 멘토 사진">
+												</div>
+												<div class="mento-body">
+													<div class="mento-body-title">홍 길동 멘토</div>
+													<ul class="mento-detail-lists">
+														<li>과학대 과학과</li>
+														<li>사회 과학 관련</li>
+													</ul>
+												</div>
+											</button>
+											<div class="mento-footer">
+												<button type="button" title="팝업열기" class="btn-question"
+													onclick="Science.popup.open(this,'#popupQuestion');">
+													<span>1:1 질문하기</span>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<!-- // 멘토 리스트 -->
+								<div class="btn-group">
+									<button type="button" class="btn-more-gray">
+										<span>더보기</span>
+									</button>
+								</div>
+							</div>
+							<div class="chat-side">
+								<div class="header-group">
+									<h5 class="h5-small darkgray">자주 하는 질문</h5>
+									<span>다른 친구들은 어떤 질문을 했을까요?</span>
+								</div>
+
+								<!-- 자주하는 질문 -->
+								<div class="qna-group">
+									<ul class="qna-lists">
+										<li>
+											<div class="qna-heading">
+												<button type="button" class="btn-qna">
+													<span><span class="font-bold">Q.</span> 하품은 왜 나오나요?</span>
+												</button>
+											</div>
+											<div class="qna-body"></div>
+										</li>
+										<li>
+											<div class="qna-heading">
+												<button type="button" class="btn-qna">
+													<span><span class="font-bold">Q.</span> 공룡은 왜 멸종 되었나요?</span>
+												</button>
+											</div>
+											<div class="qna-body"></div>
+										</li>
+										<li>
+											<div class="qna-heading">
+												<button type="button" class="btn-qna">
+													<span><span class="font-bold">Q.</span> 다른 행성에도 생명체가 있을까요?</span>
+												</button>
+											</div>
+											<div class="qna-body"></div>
+										</li>
+										<li>
+											<div class="qna-heading">
+												<button type="button" class="btn-qna">
+													<span><span class="font-bold">Q.</span> 방귀에선 왜 냄새가 나나요?</span>
+												</button>
+											</div>
+											<div class="qna-body"></div>
+										</li>
+										<li>
+											<div class="qna-heading">
+												<button type="button" class="btn-qna">
+													<span><span class="font-bold">Q.</span> 멘토 질문은 언제쯤 답변을 받을 수 있나요?</span>
+												</button>
+											</div>
+											<div class="qna-body"></div>
+										</li>
+									</ul>
+								</div>
+								<!-- // 자주하는 질문 -->
+
+								<div class="header-group">
+									<h5 class="h5-small darkgray">Q봇에게 물어 보세요</h5>
+									<span>Q봇에게 궁금한 점을 질문해 보세요</span>
+								</div>
+
+								<!-- Q봇 -->
+								<div class="chatque-group ui-scroll">
+									<div class="ui-que-dl">
+										<div class="ui-que-dt">
+											<div class="que-heading">
+												<img src="/assets/images/ico_qbot.png" alt="Q.bot">
+											</div>
+											<div class="que-body">
+												무엇이 궁금하세요?
+											</div>
+										</div>
+										<div class="ui-que-dd">
+											<div class="que-body">
+												공룡이 살던 시대가 궁금해요.
+											</div>
+										</div>
+										<div class="ui-que-dt">
+											<div class="que-heading">
+												<img src="/assets/images/ico_qbot.png" alt="Q.bot">
+											</div>
+											<div class="que-body">
+												공룡은 2억 2천만 년 전인<br>
+												트라이아스기부터 살았습니다.
+											</div>
+										</div>
+										<div class="ui-que-dd">
+											<div class="que-body">
+												공룡에 대해 더 알려주세요.
+											</div>
+										</div>
+									</div>
+
+									<div class="ipt-group que-ipt-group">
+										<input type="text" class="ui-que-ipt" placeholder="질문을 입력하세요.">
+										<button type="button" class="btn-send" title="질문보내기"></button>
+									</div>
+								</div>
+								<!-- // Q봇 -->
+							</div>
+						</div>
+
+						<div class="quick-group">
+							<button type="button" class="btn-quick do-refresh" title="리플래시"></button>
+							<a href="#header" class="btn-quick do-top" title="탑으로 이동"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer-inner loc-center">
+				<div class="footer-heading">
+					<div class="img-group">
+						<img src="/assets/images/logo_gray.png" alt="사이언스디톡S">
+					</div>
+				</div>
+				<div class="footer-body">
+					<div class="footer-body-h">
+						<div class="footer-menu-group">
+							<ul class="footer-menu">
+								<li>
+									<a href="" class="btn-footer-link">개인정보취급방침</a>
+								</li>
+								<li>
+									<a href="" class="btn-footer-link">저작권&middot;콘텐츠 이용안내</a>
+								</li>
+							</ul>
+							<div class="footer-support">
+								<span class="title">제작지원 :&nbsp;</span>
+								<span class="img-group">
+									<img src="/assets/images/logo_support.png" alt="한국언론진흥재단">
+								</span>
+							</div>
+						</div>
+						<div class="company-info">
+							<span>(주)동아사이언스</span>
+							<span>등록번호 : 서울 아04396</span>
+							<span>등록일자 : 2017년 3월 2일</span>
+							<span>제호 : 동아사이언스</span>
+							<span>발행인 : 장경애</span>
+							<span>편집인 : 박근태</span>
+						</div>
+						<div class="ceo-info">
+							<span>대표 : 장경애</span>
+							<span>개인정보관리책임자 : 김수희(privacy@dongascience.com)</span>
+							<span>청소년보호책임자 : 조기견</span>
+						</div>
+						<div class="contact-info">
+							<span>서울시 용산구 청파로 109, 7층 (04370)</span>
+							<span>문의 : 02-6749-2000</span>
+							<span>팩스 : 02-3148-0789</span>
+							<span>사업자등록번호 : 101-81-62201 (사업자정보확인)</span>
+						</div>
+						<div class="copyright-info">
+							Copyright © Dongascience. All right reserved.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- // FOOTER -->
+	</div>
+	<!-- // WRAPPER -->
+	
+	
+	<!-- POPUP : 맨토 -->
+	<div class="popup-group heading-none" id="popupMento" role="dialog" aria-labelledby="title-dialog">
+		<div class="dim"></div>
+		<div class="popup-content bg-lightgray" tabindex="-1">
+			<div class="popup-cover">
+				<div class="popup-heading">
+					<h5 class="popup-title" >멘토 상세 팝업</h5>
+				</div>
+				<div class="popup-body">
+					<div class="popup-inner">
+						<div class="mento-group">
+							<div class="btn-mento" title="팝업열기" onclick="Science.popup.open(this,'#popupMento')">
+								<div class="mento-heading">
+									<img src="/assets/images/thumb_mento0.png" alt="홍 길동 멘토 사진">
+								</div>
+								<div class="mento-body">
+									<div class="mento-body-title">홍 길동 멘토</div>
+									<ul class="mento-detail-lists">
+										<li>과학대 과학과</li>
+										<li>사회 과학 관련</li>
+									</ul>
+								</div>
+							</div>
+							<div class="mento-footer">
+								<button type="button" title="팝업열기" class="btn-question" onclick="Science.popup.open(this,'#popupQuestion');">
+									<span>1:1 질문하기</span>
+								</button>
+							</div>
+						</div>
+						<div class="meto-intro">
+							멘토 소개
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-close"><span class="blind">팝업닫기</span></button>
+		</div>
+	</div>
+	<!-- POPUP : 맨토 -->
+
+	<!-- POPUP : 1:1질문 -->
+	<div class="popup-group" id="popupQuestion" role="dialog" aria-labelledby="title-dialog">
+		<div class="dim"></div>
+		<div class="popup-content" tabindex="-1">
+			<div class="popup-cover">
+				<div class="popup-heading">
+					<h5 class="popup-title" >멘토에게 질문 하기</h5>
+				</div>
+				<div class="popup-body">
+					<div class="popup-inner">
+						<div class="dl-group">
+							<div class="ui-dl">
+								<div class="ui-dt">
+									<label for="QueInfo0">카테고리</label>
+								</div>
+								<div class="ui-dd">
+									<select name="" id="QueInfo0" class="ui-sct text-center col-6">
+										<option value="">선택</option>
+										<option value="">1</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+									</select>
+								</div>
+							</div>
+							<div class="ui-dl">
+								<div class="ui-dt">
+									<label for="QueInfo1">질문제목</label>
+								</div>
+								<div class="ui-dd">
+									<input type="text" class="ui-ipt" id="QueInfo1" placeholder="제목을 입력해 주세요.">
+								</div>
+							</div>
+							<div class="ui-dl">
+								<div class="ui-dt">
+									<label for="QueInfo2">질문내용</label>
+								</div>
+								<div class="ui-dd">
+									<textarea name="" id="QueInfo2" class="ui-txa" cols="30" rows="4" placeholder="내용을 입력해 주세요."></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn-group flex-center mgt30">
+						<button type="button" class="btn btn-quinary"><span>보내기</span></button->
+							<button type="button" class="btn btn-senary"><span>취소</span></button->
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-close"><span class="blind">팝업닫기</span></button>
+		</div>
+	</div>
+	<!-- POPUP : 1:1질문 -->
+</body>
+
+</html>

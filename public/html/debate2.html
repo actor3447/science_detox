@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+	<title>동아 사이언스 디톡스</title>
+	<link rel="stylesheet" as="style"crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+	<link rel="stylesheet" href="/assets/css/ui_layout.css">
+	<link rel="stylesheet" href="/assets/css/ui_pc_common.css">
+	<!-- <link rel="stylesheet" href="/assets/css/ui_pc_common.css"> -->
+	<script type="text/javascript" src="/assets/js/libs/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/swiper.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/EasePack.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/useragent.js"></script>
+	<script type="text/javascript" src="/assets/js/ui_common.js"></script>
+	<!-- 개발시 아래 삭제 -->
+	<script type="text/javascript" src="/assets/js/header_footer_guide.js"></script>
+	<script>
+		$(document).ready(function(){
+			// 0:사이언스디톡S, 1:토론, 2:채팅
+			Science.setGnb(1);
+		});
+	</script>
+</head>
+<body>
+	<div class="skip-group">
+		<a href="#container" class="btn-skip">본문바로가기</a>
+	</div>
+	<!-- // WRAPPER -->
+	<div class="wrapper">
+		<!-- HEADING -->
+		<header class="header" id="header">
+			<div class="header-inner">
+				<h1>
+					<a href="" class="btn-logo" title="동아 사이언스 디톡스 홈으로 이동"></a>
+				</h1>
+				<nav class="nav-group">
+					<ul class="nav-ul">
+						<li>
+							<a href="" class="btn-menu" title="사이언스디톡S"></a>
+						</li>
+						<li>
+							<a href="" class="btn-menu ico-debate" title="토론"></a>
+						</li>
+						<li>
+							<a href="" class="btn-menu ico-chat" title="쳇"></a>
+						</li>
+					</ul>
+				</nav>
+				<div class="util-group">
+					<a href="" class="btn-user">
+						<span class="user-name">김아무개</span>
+						<spin class="ico-user"></spin>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!-- HEADING -->
+
+		<!-- MAIN -->
+		<div class="container" role="main" id="container">
+			<div class="contents">
+				<div class="con-group">
+					<div class="con-heading ">
+						<div class="con-heading-inner con-about loc-center">
+							<h2 class="h2 ">
+								<div class="sub-title">카테고리 종류, 카테고리 명</div>
+								<div class="title">우주에는 다른 생명체가 있을까?</div>
+							</h2>
+							<div class="debate-info-group">
+								<ul>
+									<li>
+										<!-- 클리시 on클래스 추가 -->
+										<button type="button" class="btn-like2" title="좋아요"></button>
+									</li>
+									<li>
+										<!-- 클리시 on클래스 추가 -->
+										<button type="button" class="btn-bookmark2" title="책갈피 저장"></button>
+									</li>
+									<li>
+										<button type="button" class="btn-people" title=""></button>
+									</li>
+									<li>
+										<button type="button" class="btn-sns2" title="sns"></button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="con-body pdl60-pdr60 pdb43 loc-center radius20">
+						<div class="voice-group">
+							<div class="voice-side">
+								<div class="header-group">
+									<h4 class="h5-small font-bold darkgray ico-voice">음성 토론에 참여해 보세요.</h4>
+									<button type="button" class="btn-debate-listen">
+										<span>토론 전체듣기</span>
+									</button>
+								</div>
+								<div class="voicechat-box">
+									<ul class="voicechat-lists ui-scroll">
+										<li class="anyone">
+											<div class="voicechat-group anyone">
+												<div class="name">홍길동</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="time">
+													<span>16:30</span>
+												</div>
+											</div>
+										</li>
+										<li class="anyone">
+											<div class="voicechat-group anyone">
+												<div class="name">꿈돌이길동이</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="time">
+													<span>16:30</span>
+												</div>
+											</div>
+										</li>
+										<li class="me">
+											<div class="voicechat-group me">
+												<div class="time">
+													<span>16:30</span>
+												</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="name">과학이 좋아요</div>
+											</div>
+										</li>
+										<li class="me">
+											<div class="voicechat-group me">
+												<div class="time">
+													<span>16:30</span>
+												</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="name">과학이 좋아요</div>
+											</div>
+										</li>
+										<li class="anyone">
+											<div class="voicechat-group anyone">
+												<div class="name">바마라다나가</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="time">
+													<span>16:30</span>
+												</div>
+											</div>
+										</li>
+										<li class="anyone">
+											<div class="voicechat-group anyone">
+												<div class="name">가나다라마바</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="time">
+													<span>16:30</span>
+												</div>
+											</div>
+										</li>
+										<li class="anyone">
+											<div class="voicechat-group anyone">
+												<div class="name">뽕뿡이</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="time">
+													<span>16:30</span>
+												</div>
+											</div>
+										</li>
+										<li class="me">
+											<div class="voicechat-group me">
+												<div class="time">
+													<span>16:30</span>
+												</div>
+												<button type="button" class="btn-play"><span>02:30</span></button>
+												<div class="name">과학이 좋아요</div>
+											</div>
+										</li>
+									</ul>
+
+									<div class="voicechat-act-box">
+										<div class="voicechat-act-group">
+											<div class="btn-group start-group"> <!-- .none 클래스 추가시 안보임 -->
+												<button type="button" class="btn-start" title="녹음시작"></button>
+												<div class="txt">클릭하여 녹음을 시작하세요</div>
+											</div>
+											<div class="btn-group stop-group none"> <!-- .none 클래스 삭제시 보임 -->
+												<button type="button" class="btn-stop " title="녹음중지"></button>
+												<div class="txt">녹음중&middot;&middot;&middot;</div>
+											</div>
+											<div class="btn-group complete-group none"> <!-- .none 클래스 삭제시 보임 -->
+												<button type="button" class="btn-complete" title="녹음완료"></button>
+												<button type="button" class="btn-record-cancel" title="녹음취소"></button>
+												<div class="txt">녹음완료</div>
+											</div>
+										</div>
+										<div class="btn-group send-group">
+											<button type="button" class="btn-voice-send" title="전송"></button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="voice-side">
+								<div class="header-group flex content-center align-item-end">
+									<h6 class="h6-small text-center darkgray">관련 콘텐츠</h6>
+								</div>
+								<ul class="related-lists">
+									<li>
+										<button type="button" class="btn-related">
+											<div class="related-heading">
+												<img src="/assets/images/thumb_related0.png" alt="콘텐츠 제목">
+											</div>
+											<div class="related-body">
+												<div class="category">카테고리</div>
+												<div class="title">콘텐츠 제목</div>
+											</div>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn-related">
+											<div class="related-heading">
+												<img src="/assets/images/thumb_related0.png" alt="콘텐츠 제목">
+											</div>
+											<div class="related-body">
+												<div class="category">카테고리</div>
+												<div class="title">콘텐츠 제목</div>
+											</div>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn-related">
+											<div class="related-heading">
+												<img src="/assets/images/thumb_related0.png" alt="콘텐츠 제목">
+											</div>
+											<div class="related-body">
+												<div class="category">카테고리</div>
+												<div class="title">콘텐츠 제목</div>
+											</div>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- QUICK -->
+						<div class="quick-group">
+							<button type="button" class="btn-debate-out"><span>토론방<br>나가기</span></button>
+							<button type="button" class="btn-quick do-refresh" title="리플래시"></button>
+							<a href="#header" class="btn-quick do-top" title="탑으로 이동"></a>
+						</div>
+						<!-- // QUICK -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer-inner loc-center">
+				<div class="footer-heading">
+					<div class="img-group">
+						<img src="/assets/images/logo_gray.png" alt="사이언스디톡S">
+					</div>
+				</div>
+				<div class="footer-body">
+					<div class="footer-body-h">
+						<div class="footer-menu-group">
+							<ul class="footer-menu">
+								<li>
+									<a href="" class="btn-footer-link">개인정보취급방침</a>
+								</li>
+								<li>
+									<a href="" class="btn-footer-link">저작권&middot;콘텐츠 이용안내</a>
+								</li>
+							</ul>
+							<div class="footer-support">
+								<span class="title">제작지원 :&nbsp;</span>
+								<span class="img-group">
+									<img src="/assets/images/logo_support.png" alt="한국언론진흥재단">
+								</span>
+							</div>
+						</div>
+						<div class="company-info">
+							<span>(주)동아사이언스</span>
+							<span>등록번호 : 서울 아04396</span>
+							<span>등록일자 : 2017년 3월 2일</span>
+							<span>제호 : 동아사이언스</span>
+							<span>발행인 : 장경애</span>
+							<span>편집인 : 박근태</span>
+						</div>
+						<div class="ceo-info">
+							<span>대표 : 장경애</span>
+							<span>개인정보관리책임자 : 김수희(privacy@dongascience.com)</span>
+							<span>청소년보호책임자 : 조기견</span>
+						</div>
+						<div class="contact-info">
+							<span>서울시 용산구 청파로 109, 7층 (04370)</span>
+							<span>문의 : 02-6749-2000</span>
+							<span>팩스 : 02-3148-0789</span>
+							<span>사업자등록번호 : 101-81-62201 (사업자정보확인)</span>
+						</div>
+						<div class="copyright-info">
+							Copyright © Dongascience. All right reserved.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- // FOOTER -->
+	</div>
+	<!-- // WRAPPER -->
+
+</body>
+
+</html>
